@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{ACE75BB2-8EAA-4129-88DD-0D73DB133F1F}|AngusTools\\AngusTools.csproj|solutionrelative:angustools\\filehelper\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66BCD90B-2F2F-415B-A4AE-72033503B92D}|Src_Demo\\Src_Demo.csproj|d:\\a\u4E2A\u4EBA\u9879\u76EE\\github\\angustools\\angustools\\src_demo\\filehelper\\test_cfghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66BCD90B-2F2F-415B-A4AE-72033503B92D}|Src_Demo\\Src_Demo.csproj|solutionrelative:src_demo\\filehelper\\test_cfghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66BCD90B-2F2F-415B-A4AE-72033503B92D}|Src_Demo\\Src_Demo.csproj|d:\\a\u4E2A\u4EBA\u9879\u76EE\\github\\angustools\\angustools\\src_demo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66BCD90B-2F2F-415B-A4AE-72033503B92D}|Src_Demo\\Src_Demo.csproj|solutionrelative:src_demo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -60,7 +56,7 @@
               "RelativeDocumentMoniker": "AngusTools\\FileHelper\\ConfigHelper.cs",
               "ToolTip": "D:\\A\u4E2A\u4EBA\u9879\u76EE\\GitHub\\AngusTools\\AngusTools\\AngusTools\\FileHelper\\ConfigHelper.cs",
               "RelativeToolTip": "AngusTools\\FileHelper\\ConfigHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T07:10:53.569Z",
               "EditorCaption": ""
@@ -68,18 +64,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Test_CfgHelper.cs",
-              "DocumentMoniker": "D:\\A\u4E2A\u4EBA\u9879\u76EE\\GitHub\\AngusTools\\AngusTools\\Src_Demo\\FileHelper\\Test_CfgHelper.cs",
-              "RelativeDocumentMoniker": "Src_Demo\\FileHelper\\Test_CfgHelper.cs",
-              "ToolTip": "D:\\A\u4E2A\u4EBA\u9879\u76EE\\GitHub\\AngusTools\\AngusTools\\Src_Demo\\FileHelper\\Test_CfgHelper.cs",
-              "RelativeToolTip": "Src_Demo\\FileHelper\\Test_CfgHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T07:17:13.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\A\u4E2A\u4EBA\u9879\u76EE\\GitHub\\AngusTools\\AngusTools\\Src_Demo\\Form1.cs",
               "RelativeDocumentMoniker": "Src_Demo\\Form1.cs",
