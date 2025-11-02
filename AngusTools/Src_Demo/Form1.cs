@@ -11,13 +11,10 @@ namespace Src_Demo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DataSet dt = new DataSet();
             string path = @"..\..\..\Data\Config.config";
-            if (File.Exists(path))
-                dt.ReadXml(path);
-            string? str = dt.Tables[0].Rows[0]["name"].ToString();
-
-
+            string key = "ChangeType";
+            AngusTools.FileHelper.ConfigHelper.SaveValueToCfg(path, "ChangeType", "10");
+            int value = int.Parse(AngusTools.FileHelper.ConfigHelper.GetCfgValue(path, key));
         }
     }
 }
