@@ -1,4 +1,5 @@
-/AngusTools/.vs/
-/.vs/
-/bin/
-/obj/
+AngusTools/.vs/
+AngusTools/AngusTools/bin/
+AngusTools/AngusTools/obj/
+AngusTools/Src_Demo/bin/
+AngusTools/Src_Demo/obj/
