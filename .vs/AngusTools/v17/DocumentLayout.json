@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\A\u4E2A\u4EBA\u9879\u76EE\\GitHub\\AngusTools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACE75BB2-8EAA-4129-88DD-0D73DB133F1F}|AngusTools\\AngusTools.csproj|d:\\a\u4E2A\u4EBA\u9879\u76EE\\github\\angustools\\angustools\\loghelper\\logdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACE75BB2-8EAA-4129-88DD-0D73DB133F1F}|AngusTools\\AngusTools.csproj|solutionrelative:angustools\\loghelper\\logdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACE75BB2-8EAA-4129-88DD-0D73DB133F1F}|AngusTools\\AngusTools.csproj|d:\\a\u4E2A\u4EBA\u9879\u76EE\\github\\angustools\\angustools\\filehelper\\csvhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACE75BB2-8EAA-4129-88DD-0D73DB133F1F}|AngusTools\\AngusTools.csproj|solutionrelative:angustools\\filehelper\\csvhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogDemo.cs",
+              "DocumentMoniker": "D:\\A\u4E2A\u4EBA\u9879\u76EE\\GitHub\\AngusTools\\AngusTools\\LogHelper\\LogDemo.cs",
+              "RelativeDocumentMoniker": "AngusTools\\LogHelper\\LogDemo.cs",
+              "ToolTip": "D:\\A\u4E2A\u4EBA\u9879\u76EE\\GitHub\\AngusTools\\AngusTools\\LogHelper\\LogDemo.cs",
+              "RelativeToolTip": "AngusTools\\LogHelper\\LogDemo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T03:40:03.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CsvHelper.cs",
+              "DocumentMoniker": "D:\\A\u4E2A\u4EBA\u9879\u76EE\\GitHub\\AngusTools\\AngusTools\\FileHelper\\CsvHelper.cs",
+              "RelativeDocumentMoniker": "AngusTools\\FileHelper\\CsvHelper.cs",
+              "ToolTip": "D:\\A\u4E2A\u4EBA\u9879\u76EE\\GitHub\\AngusTools\\AngusTools\\FileHelper\\CsvHelper.cs",
+              "RelativeToolTip": "AngusTools\\FileHelper\\CsvHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T03:40:00.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
