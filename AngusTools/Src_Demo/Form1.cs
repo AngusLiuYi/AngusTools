@@ -1,3 +1,4 @@
+using Src_Demo.FileHelper;
 using System.Data;
 
 namespace Src_Demo
@@ -11,13 +12,7 @@ namespace Src_Demo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DataSet dt = new DataSet();
-            string path = @"..\..\..\Data\Config.config";
-            if (File.Exists(path))
-                dt.ReadXml(path);
-            string? str = dt.Tables[0].Rows[0]["name"].ToString();
-
-
+            Test_CfgHelper tc=new Test_CfgHelper();
         }
     }
 }

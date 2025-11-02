@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AngusTools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f301816650ca999f50350d34a270c79ff2a7da2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce44ccb2ac093967899b7947ad4e28aca54915f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AngusTools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AngusTools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
