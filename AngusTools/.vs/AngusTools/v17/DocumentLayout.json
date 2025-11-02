@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,10 +53,6 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Path.cs",
@@ -64,7 +60,7 @@
               "RelativeDocumentMoniker": "AngusTools\\FileHelper\\Path.cs",
               "ToolTip": "D:\\A\u4E2A\u4EBA\u9879\u76EE\\GitHub\\AngusTools\\AngusTools\\AngusTools\\FileHelper\\Path.cs",
               "RelativeToolTip": "AngusTools\\FileHelper\\Path.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T06:03:44.625Z",
               "EditorCaption": ""
@@ -79,8 +75,7 @@
               "RelativeToolTip": "AngusTools\\FileHelper\\ConfigHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T04:22:09.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T04:22:09.406Z"
             },
             {
               "$type": "Document",
@@ -92,8 +87,7 @@
               "RelativeToolTip": "Src_Demo\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T04:02:17.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T04:02:17.604Z"
             },
             {
               "$type": "Document",
@@ -105,8 +99,7 @@
               "RelativeToolTip": "AngusTools\\FileHelper\\CsvHelper.cs",
               "ViewState": "AgIAAJgAAAAAAAAAAADwv8AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T04:01:34.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T04:01:34.556Z"
             }
           ]
         }
