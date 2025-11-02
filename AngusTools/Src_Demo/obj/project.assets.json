@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\A个人项目\\GitHub\\AngusTools\\AngusTools\\AngusTools.csproj",
-      "projectName": "AngusTools",
-      "projectPath": "D:\\A个人项目\\GitHub\\AngusTools\\AngusTools\\AngusTools.csproj",
+      "projectUniqueName": "D:\\A个人项目\\GitHub\\AngusTools\\AngusTools\\Src_Demo\\Src_Demo.csproj",
+      "projectName": "Src_Demo",
+      "projectPath": "D:\\A个人项目\\GitHub\\AngusTools\\AngusTools\\Src_Demo\\Src_Demo.csproj",
       "packagesPath": "C:\\Users\\15472\\.nuget\\packages\\",
-      "outputPath": "D:\\A个人项目\\GitHub\\AngusTools\\AngusTools\\obj\\",
+      "outputPath": "D:\\A个人项目\\GitHub\\AngusTools\\AngusTools\\Src_Demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
