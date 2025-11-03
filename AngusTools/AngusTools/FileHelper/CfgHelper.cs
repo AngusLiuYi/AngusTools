@@ -11,7 +11,7 @@ namespace AngusTools.FileHelper
     //所以此类仅作为典型读写操作的示例，不需要专门开发
     //2025年11月2日12:23:56
 
-    public static class ConfigHelper
+    public static class CfgHelper
     {
         /// <summary>
         /// 获取指令路径下XML文件的值
