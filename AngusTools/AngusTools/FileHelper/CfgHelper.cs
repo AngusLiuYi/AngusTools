@@ -20,13 +20,13 @@ namespace AngusTools.FileHelper
         /// <param name="path">文件地址</param>
         /// <param name="key">对象索引</param>
         /// <returns>对象值</returns>
-        public static string? GetCfgValue(string path, string key)
+        public static string GetCfgValue(string path, string key)
         {
             DataTable dt=CfgToDataTable(path);
             string? str = string.Empty;
-            if (dt != null )
+            if (dt != null)
                 str = dt.Rows[0][key].ToString();
-            return str;
+            return str ?? "未获取Key的值";
         }
 
         /// <summary>
