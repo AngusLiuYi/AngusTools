@@ -12,7 +12,7 @@ namespace Src_Demo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Test_CfgHelper tc=new Test_CfgHelper();
+            Test_CfgHelper test_CfgHelper = new();
         }
     }
 }
