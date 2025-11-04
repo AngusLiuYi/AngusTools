@@ -66,6 +66,7 @@ namespace AngusTools.FileHelper
         {
             if (!File.Exists(path))
                 File.Create(path);
+            dt.TableName = "configuration";
             dt.WriteXml(path);
         }
     }
