@@ -11,7 +11,7 @@ namespace AngusTools.FileHelper
     //所以此类仅作为典型读写操作的示例，不需要专门开发
     //2025年11月2日12:23:56
 
-    public static class ConfigHelper
+    public static class CfgHelper
     {
         /// <summary>
         /// 获取指令路径下XML文件的值
@@ -22,10 +22,10 @@ namespace AngusTools.FileHelper
         /// <returns>对象值</returns>
         public static string? GetCfgValue(string path, string key)
         {
-            DataSet ds=CfgToDataTable(path);
+            DataTable dt=CfgToDataTable(path);
             string? str = string.Empty;
-            if (ds != null )
-                str = ds.Tables[0].Rows[0][key].ToString();
+            if (dt != null )
+                str = dt.Rows[0][key].ToString();
             return str;
         }
 
@@ -34,12 +34,12 @@ namespace AngusTools.FileHelper
         /// </summary>
         /// <param name="path">文件地址</param>
         /// <returns>读取到的文件表格</returns>
-        public static DataSet CfgToDataTable(string path)
+        public static DataTable CfgToDataTable(string path)
         {
-            DataSet ds = new DataSet();
+            DataSet ds = new();
             if (File.Exists(path))
                 ds.ReadXml(path);
-            return ds;
+            return ds.Tables[0];
         } 
 
         /// <summary>
@@ -50,11 +50,11 @@ namespace AngusTools.FileHelper
         /// <param name="value">对象值</param>
         public static void SaveValueToCfg(string path,string key,string value)
         {
-            DataSet ds = CfgToDataTable(path);
-            if(!ds.Tables[0].Columns.Contains(key))
-                ds.Tables[0].Columns.Add(key);
-            ds.Tables[0].Rows[0][key] = value;
-            DataTableToCfg(path, ds);
+            DataTable dt = CfgToDataTable(path);
+            if(!dt.Columns.Contains(key))
+                dt.Columns.Add(key);
+            dt.Rows[0][key] = value;
+            DataTableToCfg(path, dt);
         }
 
         /// <summary>
@@ -62,11 +62,11 @@ namespace AngusTools.FileHelper
         /// </summary>
         /// <param name="path">文件地址</param>
         /// <param name="ds">源数据</param>
-        public static void DataTableToCfg(string path,DataSet ds)
+        public static void DataTableToCfg(string path,DataTable dt)
         {
             if (!File.Exists(path))
                 File.Create(path);
-            ds.WriteXml(path);
+            dt.WriteXml(path);
         }
     }
 }
