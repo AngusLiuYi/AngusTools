@@ -83,9 +83,13 @@ namespace AngusTools.FileHelper
         {
             if (!File.Exists(path))
                 return new DataTable();
-            var lines = File.ReadAllLines(path, encoding).ToList();
+            var lines = new List<string>();
+            using (StreamReader sr = new(path))
+            {
+                lines = File.ReadAllLines(path, encoding).ToList();
+            }
             bool isFirst = true;
-            DataTable dt = new DataTable();
+            DataTable dt = new();
             foreach (var line in lines)
             {
                 string[] str = line.Split(',');
@@ -191,8 +195,10 @@ namespace AngusTools.FileHelper
         public static bool DataTableToCsv(DataTable dt, string path, bool isHasTitle, bool isAppend, Encoding encoding)
         {
             if (!File.Exists(path))
-                File.Create(path);
-            using (StreamWriter sw = new StreamWriter(path, isAppend, encoding))
+            {
+                using FileStream fs = new(path, FileMode.Create, FileAccess.Write);
+            }
+            using (StreamWriter sw = new(path, isAppend, encoding))
             {
                 if (isHasTitle)
                 {

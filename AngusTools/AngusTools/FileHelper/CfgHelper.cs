@@ -23,10 +23,14 @@ namespace AngusTools.FileHelper
         public static string GetCfgValue(string path, string key)
         {
             DataTable dt=CfgToDataTable(path);
-            string? str = string.Empty;
-            if (dt != null)
-                str = dt.Rows[0][key].ToString();
-            return str ?? "未获取Key的值";
+            string str = null;
+            if (dt == null)
+                return "未读到表单";
+            if (dt.Columns.Contains(key))
+                return "未包含Key";
+            if (dt.Rows.Count < 0)
+                return "空值";
+            return dt.Rows[0][key].ToString() ?? "未获取Key的值";
         }
 
         /// <summary>
@@ -39,6 +43,7 @@ namespace AngusTools.FileHelper
             DataSet ds = new();
             if (File.Exists(path))
                 ds.ReadXml(path);
+            else ds.Tables.Add();
             return ds.Tables[0];
         } 
 
@@ -65,7 +70,9 @@ namespace AngusTools.FileHelper
         public static void DataTableToCfg(string path,DataTable dt)
         {
             if (!File.Exists(path))
-                File.Create(path);
+            {
+                using FileStream fs = new(path, FileMode.Create, FileAccess.Write); ;
+            }
             dt.TableName = "configuration";
             dt.WriteXml(path);
         }
