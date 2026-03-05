@@ -7,4 +7,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command=":: 语法：copy /Y &quot;源.dll路径&quot; &quot;目标文件夹路径&quot;&#xD;&#xA;:: /Y 表示覆盖文件时不提示确认&#xD;&#xA;copy /Y &quot;$(TargetPath)&quot; &quot;D:\A个人项目\GitHub\ForceControlCalibrationTool\ForceCtrlCailbrationTool_.Net\lib&quot;" />
+  </Target>
+
 </Project>
